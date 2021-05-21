@@ -14,6 +14,7 @@ let nomeOk = false
 let emailOk = false
 let assuntoOk = false
 let mapa = document.querySelector ('#mapa')
+let foto = document.querySelector ('#')
 nome.style.width = '100%'
 email.style.width = '100%'
  
@@ -67,3 +68,6 @@ function mapaNormal () {
     mapa.style.width = '400px'
     mapa.style.heigth = '250px'
 }
+
+
+
